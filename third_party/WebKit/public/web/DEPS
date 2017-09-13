@@ -1,0 +1,10 @@
+include_rules = [
+    "+base/optional.h",
+    "+mojo/public",
+    "+public/platform",
+    "+public/web",
+
+    # Allowed only inside INSIDE_BLINK
+    "+core",
+    "+platform",
+]
